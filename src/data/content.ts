@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Kumari Bhawna",
   shortName: "bhawna",
-  title: "Data Scientist",
+  title: "Business Analyst",
   email: "bhawna.julia060@gmail.com",
   phone: "+91 9661012727",
   location: "India",
