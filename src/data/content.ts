@@ -21,8 +21,7 @@ export const heroData = {
   greeting: "Hi, I'm",
   name: "Kumari Bhawna",
   title: "Business Analyst",
-  tagline:
-    "IIT Kharagpur dual-degree Chemical Engineer (Department Rank 3) who builds machine-learning and optimization systems for lending operations, health research, and process design.",
+  tagline: "IIT Kharagpur dual-degree Chemical Engineer (Department Rank 3) who builds machine-learning models, optimization frameworks, and automated product workflows for high-volume fintech and lending operations.",
   cta: {
     primary: { label: "Download Resume", href: siteConfig.resumeUrl },
     secondary: { label: "Get in Touch", href: "#contact" },
