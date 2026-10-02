@@ -87,12 +87,7 @@ export function Hero() {
             </motion.div>
           </motion.div>
 
-          <div className="flex-shrink-0 hidden lg:block">
-            <TerminalCard
-              command={heroData.terminal.command}
-              output={heroData.terminal.output}
-            />
-          </div>
+
         </div>
       </div>
 
