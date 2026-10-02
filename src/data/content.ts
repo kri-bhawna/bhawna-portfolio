@@ -83,7 +83,7 @@ export const experienceData: ExperienceItem[] = [
       "Tableau",
       "Databricks",
       "JIRA",
-      "Confluence"
+      "Confluence",
       "Linear Programming",
     ],
   },
