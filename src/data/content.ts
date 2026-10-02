@@ -31,7 +31,7 @@ export const heroData = {
     command: "cat profile.json",
     output: `{
   "role": "Business Analyst",
-  "focus": ["ML", "Optimization", "SQL"],
+  "focus": ["SQL", "Tableau", "Python", "Optimization", "ML Modeling"],
   "recent": "Navi Technologies",
   "education": "IIT Kharagpur · 9.23",
   "rank": "Department Rank 3"
@@ -41,15 +41,16 @@ export const heroData = {
 
 export const aboutData = {
   paragraphs: [
-    "I work at the intersection of data science and operations. At Navi Technologies I was a Business Analyst on collections — deploying a linear-programming model that cut operational call volumes by 30%, forecasting when customers actually pick up, and predicting debit-order mandate failures at 89.6% accuracy.",
+    "I work at the intersection of business analytics, data science and optimization. At Navi Technologies I was a Business Analyst in Collections Vertical, where I single-handedly managed high-risk HRC cases, across early DPD buckets and scaled my operational analytics scope across a fleet of over 300 agents.",
+    "During my 14-month tenure, I designed a multi-layered operational architecture: deploying linear programming to cut call volumes by 30%, building time-series models to target optimal user connectivity windows, and integrating an AI Voice Bot to substitute manual human effort with automated product outreach workflows.",
     "Before that I spent a summer at York University on a MITACS project predicting anxiety from a 45,000-row health dataset, and published the work as first author at the 30th Annual IEEE STC 2023. At Dr. Reddy's I automated an unsteady batch-distillation process in Python and was offered a pre-placement offer.",
-    "I finished a Dual Degree (B.Tech + M.Tech) in Chemical Engineering at IIT Kharagpur with a CGPA of 9.23 and Department Rank 3. The through-line is the same: take a messy operational problem and turn it into a model people can actually run.",
+    "I finished a Dual Degree (B.Tech + M.Tech) in Chemical Engineering at IIT Kharagpur with a CGPA of 9.23 and Department Rank 3. My core strength lies in taking complex, unstructured business bottlenecks and converting them into high-performing automated models that drive down unit costs while safeguarding revenue efficiency.",
   ],
   stats: [
     { value: "9.23", label: "CGPA · IIT Kharagpur" },
     { value: "Rank 3", label: "Department Rank" },
     { value: "30%", label: "Fewer Outreach Calls" },
-    { value: "89.6%", label: "Mandate Model Accuracy" },
+    { value: "19%", label: "Operational Costs Slashed" },
   ],
 };
 
@@ -67,20 +68,23 @@ export const experienceData: ExperienceItem[] = [
     company: "Navi Technologies",
     duration: "May 2024 — Jun 2025",
     bullets: [
-      "Deployed a Python linear-programming model across DPD tiers that cut operational call volumes by 30%, while capping collection-efficiency degradation at 0.13% with a constraint matrix built in Databricks",
-      "Factored customer ECL segments, call responsiveness, and EMI payment behavior into cohort limits for collection outreach",
-      "Built probabilistic and time-series models on SMS, WhatsApp, and call logs to forecast connectivity windows, identifying high-response time slots at 79% accuracy",
-      "Redesigned a spatial routing algorithm that raised customer-agent geographic overlap from 40% to 70%, and allocated 300+ agents by region and native language",
-      "Trained an XGBoost model to predict debit-order mandate failures at 89.6% accuracy and triggered automated customer nudges from the scores",
-      "Automated Account Aggregator request pipelines with SQL exclusion logic, cutting monthly platform cost by 19%, and built SQL forecasts for DPD 8 and DPD 30 collection efficiency",
-    ],
+      "Single-handedly managed analytics for the High-Risk Division (HRC) handling early-stage DPD 0-8 buckets, later expanding scope across both HRC and telecalling portfolios up to DPD 30.",
+      "Deployed a Python linear-programming optimization framework that reduced total operational call volumes by 30%, while capping collection-efficiency degradation to a minimal 13 basis points via a Databricks constraint matrix.",
+      "Factored customer ECL segments, historical call responsiveness, and EMI payment behaviors into cohort limits to transition from brute-force dialing to tailored maximum call thresholds.",
+      "Built a time-series connectivity model over app clickstream logs, WhatsApp patterns, and SMS metadata, identifying high-response hourly windows with 79% accuracy to completely offset funnel drop by 5 bips.",
+      "Integrated an automated AI Voice Bot for routine customer outreach within early DPD buckets, successfully substituting manual human effort and re-routing core agent capacity to complex recovery portfolios.",
+      "Redesigned a spatial routing algorithm that raised customer-agent geographic and linguistic overlap from 40% to 70%, optimizing workforce allocation and reducing average handling time (AHT) for 300+ agents.",
+      "Trained an XGBoost model to predict debit-order mandate failures at 89.6% accuracy and engineered automated contextual customer nudges to proactively mitigate transaction drops.",
+      "Streamlined Account Aggregator request pipelines with SQL exclusion logic, reducing monthly operational costs by 19%, and built forecasting models for DPD 8 and DPD 30 collection efficiency metrics.",
+     ],
     tech: [
-      "Python",
       "SQL",
+      "Python",
+      "Tableau",
       "Databricks",
-      "XGBoost",
+      "JIRA",
+      "Confluence"
       "Linear Programming",
-      "Time Series",
     ],
   },
   {
