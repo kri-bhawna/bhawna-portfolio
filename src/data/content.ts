@@ -20,7 +20,7 @@ export const siteConfig = {
 export const heroData = {
   greeting: "Hi, I'm",
   name: "Kumari Bhawna",
-  title: "Data Scientist",
+  title: "Business Analyst",
   tagline:
     "IIT Kharagpur dual-degree Chemical Engineer (Department Rank 3) who builds machine-learning and optimization systems for lending operations, health research, and process design.",
   cta: {
@@ -30,7 +30,7 @@ export const heroData = {
   terminal: {
     command: "cat profile.json",
     output: `{
-  "role": "Data Scientist",
+  "role": "Business Analyst",
   "focus": ["ML", "Optimization", "SQL"],
   "recent": "Navi Technologies",
   "education": "IIT Kharagpur · 9.23",
